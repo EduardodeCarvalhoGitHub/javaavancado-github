@@ -1,3 +1,5 @@
 function mostrar(){
-	alert('mesnagem GitHub');
+	alert('Mensagem GitHub');
 }
+var btn = document.getElementById("botao");
+btn.addEventListener('click', mostrar);
